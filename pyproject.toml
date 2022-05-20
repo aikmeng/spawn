@@ -3,6 +3,7 @@ name = "spawn"
 version = "0.1.0"
 description = "Module to generate files with random content"
 authors = ["Ang Aik Meng <aikmeng80@gmail.com>"]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
