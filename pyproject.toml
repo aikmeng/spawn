@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "spawn"
 version = "0.1.0"
-description = ""
+description = "Module to generate files with random content"
 authors = ["Ang Aik Meng <aikmeng80@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+click = "^8.1.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
