@@ -41,7 +41,6 @@ def generate_big_random_letters(file_name, target_size):
 def write_big_random_sentences(file_object, write_size):
     for index in range(write_size):
         file_object.writelines([' '.join([random.choice(word_index) for word_index in ALL_WORDS]),'\n'])
-    
     return "rows"
 
 def generate_big_random_sentences(file_name, line_count):
